@@ -8,7 +8,7 @@ const UI = {
     },
 
     game : {
-        buttonBack : [1220, 20, 40, 40],
+        buttonMenu : [1220, 20, 40, 40],
 
         ready : {
             rect : [80, 80, 1120, 560],
@@ -23,13 +23,14 @@ const UI = {
         },
 
         field : {
-            cellStart : [80, 80],
-            cellSize : [80, 80],
-            cellInterval : [80, 80],
+            cellStart : [80, 120],
+            cellSize : [120, 120],
+            cellInterval : [120, 120],
         },
 
         lower : {
             buttonGenerator : [80, 600, 80, 80],
+            textGenerator : [84, 604],
             hand : [
                 [160, 600, 80, 80], [240, 600, 80, 80], [320, 600, 80, 80], [400, 600, 80, 80],
                 [480, 600, 80, 80], [560, 600, 80, 80], [640, 600, 80, 80], [720, 600, 80, 80]
@@ -38,13 +39,18 @@ const UI = {
             generatorLevelText : [84, 564],
             energyIcon : [160, 560],
             energyText : [204, 564],
-            energyBar : [],
-            lifeIcon : [],
-            lifeText : [],
+            energyBar : [320, 560, 240, 40],
+            lifeIcon : [560, 560],
+            lifeText : [604, 564],
         }
     },
 
     menu : {
-        
+        rect : [320, 240, 640, 240],
+        textPause : [328, 264],
+        buttonResume : [320, 320, 640, 80],
+        textResume : [328, 344],
+        buttonExit : [320, 400, 640, 80],
+        textExit : [328, 424],
     },
 }

@@ -38,6 +38,7 @@ let varPlayer = {
     energyMax : 6,
     energyGen : 1,
     generatorLevel : 1,
+    generatorEnergy : [0, 4, 6, 9, 12, ''],
 
     life : 20,
 }
